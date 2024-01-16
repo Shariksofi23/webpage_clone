@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    width: 100vw;
+    min-height: 100vh; 
+    
+}
+.container{
+    background-image:url(Assets/background-image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 85%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+    z-index: 2;
+}
+.links > a{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 1rem;
+}
+.search{
+    background-color: #ED007E;
+    border: transparent;
+    border-radius: 10px;
+    font-size: large;
+    padding: 0.5rem;
+    color: white;
+    margin: 3px;
+}
+.nav_icons{
+    display: flex;
+    align-items: center;  
+}
+.nav_icons > img{
+    margin-right:7px;
+}
+.car_loan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 15px;
+    box-shadow:5px 5px 10px black;
+    margin: auto;
+    z-index: 2;
+}
+.family_image{
+    position: fixed;
+    top: 4rem;
+    right: 40px;
+    z-index: 1;
+}
+.house_loan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 15px;
+    box-shadow:5px 5px 10px black;
+    position: fixed;
+    right: 30px;
+    top: 250px;
+    z-index: 2;
+}
+.text_box{
+    width: 50%;
+    margin: 2rem;
+}
+.text > h1{
+    font-weight: 900;
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+.text >p{
+    width: 90%;
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.text{
+    width: 30rem;
+    
+}
+.btn{
+    margin: 4px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.apply{
+    background-color: #ED007E;
+    color: white;
+    border: none;
+}
+.calculator{
+    color: #ED007E;
+    border:1px solid #ED007E;
+    background-color: transparent;
+    
+}
+.contact-icons{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.contact-icons > img,p{
+    margin: 3px;
+}
+
+
+
+
